@@ -1,6 +1,6 @@
 import csv
 import json
-dataFile = open("crimeData.csv", "rU")
+dataFile = open("Data.csv", "rU")
 reader = csv.reader(dataFile)
 aList = []
 for row in reader:

@@ -17,11 +17,11 @@ var dict = {
 };
 
 
-for( i = 0; i < data.length; i++) {
+for( i = 0; i < data3.length; i++) {
 
-    var circle = L.circle([data[i].latitude, data[i].longitude], {
-        color: dict[data[i].type],
-        fillColor: dict[data[i].type],
+    var circle = L.circle([data3[i].latitude, data3[i].longitude], {
+        color: dict[data3[i].type],
+        fillColor: dict[data3[i].type],
         fillOpacity: 0.5,
         radius: 50
         }).addTo(mymap);
