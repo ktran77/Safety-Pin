@@ -27,3 +27,21 @@ p {
     width: 1000px;
     margin: 0 auto 0 auto;
 }
+
+dt {
+width: 40px;
+height: 40px;
+display: inline-block;
+overflow: hidden;
+}
+.aqua {background-color: aqua; color: aqua; border: 1px solid #000;}
+.orange {background-color: #f90; color: #f90; border: 1px solid #000;}
+.black {background-color: #000; color: #000; border: 1px solid white;}
+
+.text {color: white; font-family: 'Sofia', cursive;}
+
+dd {
+display: inline-block;
+width: 10em;
+margin: 0 0 0 0.01em;
+}
